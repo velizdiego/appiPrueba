@@ -1,0 +1,60 @@
+[
+    {
+        "id": 1,
+        "name": "cuadro trono de hierro",
+        "price": 30000,
+        "description": "pintado en oleo ",
+        "brand": "got",
+        "images": "images/cuadro trono.jpg"
+    },
+    {
+        "id": 2,
+        "name": "daga catspaw",
+        "price": 14000,
+        "description": "replica exacta echa de hierro ",
+        "brand": "got",
+        "images": "images/daga got.jpg"
+    },
+    {
+        "id": 3,
+        "name": "drogon",
+        "price": 20000,
+        "description": "impreso en 3d con resina",
+        "brand": "got",
+        "images": "images/buzo nike blanco.jpg"
+    },
+    {
+        "id": 4,
+        "name": "libros saga got",
+        "price": 300000,
+        "description": "originales",
+        "brand": "got",
+        "images": "images/libros saga.jpg"
+    },
+    {
+        "id": 5,
+        "name": "remera got",
+        "price": 50000,
+        "description": "100% algodon blancas",
+        "brand": "got",
+        "images": "images/reme got.jpg"
+    },
+    {
+        "id": 6,
+        "name": "snow",
+        "price": 20000,
+        "description": "impreso con filamento ultra resistente",
+        "brand": "got",
+        "images": "images/snow.jpg"
+    },
+    
+    {
+        "id": 7,
+        "name": "traje guardian de la noche",
+        "price": 20000,
+        "description": "replica con piel sintetica",
+        "brand": "got",
+        "images": "images/traje guardian.jpg"
+    }
+   
+]

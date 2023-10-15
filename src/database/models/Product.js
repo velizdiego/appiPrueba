@@ -6,12 +6,19 @@ const mongoose = require("mongoose");
         type: String,
         required: true
     },
-    price: Number,
+    price:{
+       type: Number,
+       required:true
+    },
     description: {
         type: String,
         required: true
     },
     brand: {
+        type: String,
+        required: true
+    },
+    discount: {
         type: String,
         required: true
     },

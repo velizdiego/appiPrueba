@@ -1,60 +1,164 @@
-[
-    {
-        "id": 1,
-        "name": "cuadro trono de hierro",
-        "price": 30000,
-        "description": "pintado en oleo ",
-        "brand": "got",
-        "images": "images/cuadro trono.jpg"
-    },
-    {
-        "id": 2,
-        "name": "daga catspaw",
-        "price": 14000,
-        "description": "replica exacta echa de hierro ",
-        "brand": "got",
-        "images": "images/daga got.jpg"
-    },
-    {
-        "id": 3,
-        "name": "drogon",
-        "price": 20000,
-        "description": "impreso en 3d con resina",
-        "brand": "got",
-        "images": "images/buzo nike blanco.jpg"
-    },
-    {
-        "id": 4,
-        "name": "libros saga got",
-        "price": 300000,
-        "description": "originales",
-        "brand": "got",
-        "images": "images/libros saga.jpg"
-    },
-    {
-        "id": 5,
-        "name": "remera got",
-        "price": 50000,
-        "description": "100% algodon blancas",
-        "brand": "got",
-        "images": "images/reme got.jpg"
-    },
-    {
-        "id": 6,
-        "name": "snow",
-        "price": 20000,
-        "description": "impreso con filamento ultra resistente",
-        "brand": "got",
-        "images": "images/snow.jpg"
-    },
-    
-    {
-        "id": 7,
-        "name": "traje guardian de la noche",
-        "price": 20000,
-        "description": "replica con piel sintetica",
-        "brand": "got",
-        "images": "images/traje guardian.jpg"
-    }
-   
-]
+[{
+  "_id": {
+    "$oid": "65108eb0c3bc1eb3dd9ccad2"
+  },
+  "name": "remera cuervo negra",
+  "price": 30000,
+  "description": "100% algodon ",
+  "discount": "50%",
+  "brand": "got",
+  "images": "../images/remeracuervo.jpg"
+},
+{
+  "_id": {
+    "$oid": "65108eb0c3bc1eb3dd9ccad3"
+  },
+  "name": "remera targeryan",
+  "price": 3000,
+  "description": "100% algodon ",
+  "discount": "50%",
+  "brand": "got",
+  "images": "../images/remera targeryan.jpg"
+},
+{
+  "_id": {
+    "$oid": "65108eb0c3bc1eb3dd9ccad4"
+  },
+  "name": "remera winter is conming",
+  "price": 30000,
+  "description": "100% algodon ",
+  "discount": "50%",
+  "brand": "got",
+  "images": "../images/remera winter is coming.jpeg"
+},
+{
+  "_id": {
+    "$oid": "65108eb0c3bc1eb3dd9ccad5"
+  },
+  "name": "tazas blacas got",
+  "price": 2000,
+  "description": "porcelana",
+  "discount": "50%",
+  "brand": "got",
+  "images": "../images/GOT-taza-02-blanca-scaled.jpg"
+},
+{
+  "_id": {
+    "$oid": "65108eb0c3bc1eb3dd9ccad6"
+  },
+  "name": "taza winter",
+  "price": 2000,
+  "description": "porcelana",
+  "brand": "got",
+  "images": "../images/tazaswinter.jpg"
+},
+{
+  "_id": {
+    "$oid": "65108eb0c3bc1eb3dd9ccad7"
+  },
+  "name": "taza WINTER",
+  "price": 2000,
+  "description": "porcelana",
+  "discount": "50%",
+  "brand": "got",
+  "images": "../images/GOT-taza-03-blanca-scaled.jpg"
+},
+{
+  "_id": {
+    "$oid": "65108eb0c3bc1eb3dd9ccad8"
+  },
+  "name": "figura drogo",
+  "price": 15000,
+  "description": "replica impresa 3d",
+  "discount": "50%",
+  "brand": "got",
+  "images": "../images/figuradragon.jpg"
+},
+{
+  "_id": {
+    "$oid": "65108eb0c3bc1eb3dd9ccad9"
+  },
+  "name": "jhon snow",
+  "price": 15000,
+  "description": "replica impresa 3d",
+  "discount": "50%",
+  "brand": "got",
+  "images": "../images/figura-jon-snow.jpg"
+},
+{
+  "_id": {
+    "$oid": "65108eb0c3bc1eb3dd9ccada"
+  },
+  "name": "figura brandon y hodor",
+  "price": 15000,
+  "description": "replica impresa 3d",
+  "discount": "50%",
+  "brand": "got",
+  "images": "../images/figurasbrandon.jpg"
+},
+{
+  "_id": {
+    "$oid": "65108eb0c3bc1eb3dd9ccadb"
+  },
+  "name": "daenerys-targeryen",
+  "price": 15000,
+  "description": "replica impresa 3d",
+  "discount": "50%",
+  "brand": "got",
+  "images": "../images/daenerys-targaryen-figurine.png"
+},
+{
+  "_id": {
+    "$oid": "65108eb0c3bc1eb3dd9ccadc"
+  },
+  "name": "figura ned startk",
+  "price": 15000,
+  "description": "replica impresa 3d",
+  "discount": "50%",
+  "brand": "got",
+  "images": "../images/figurastark.png"
+},
+{
+  "_id": {
+    "$oid": "65108eb0c3bc1eb3dd9ccadd"
+  },
+  "name": "figura tyron",
+  "price": 15000,
+  "description": "replica impresa 3d",
+  "discount": "50%",
+  "brand": "got",
+  "images": "../images/figuratyron.jpg"
+},
+{
+  "_id": {
+    "$oid": "65108eb0c3bc1eb3dd9ccade"
+  },
+  "name": "traje",
+  "price": 30000,
+  "description": "replica",
+  "discount": "50%",
+  "brand": "got",
+  "images": "../images/traje.jpg"
+},
+{
+  "_id": {
+    "$oid": "65108eb0c3bc1eb3dd9ccadf"
+  },
+  "name": "traje briat",
+  "price": 30000,
+  "description": "replica",
+  "discount": "50%",
+  "brand": "got",
+  "images": "../images/trajebriat.jpg"
+},
+{
+  "_id": {
+    "$oid": "65108eb0c3bc1eb3dd9ccae0"
+  },
+  "name": "traje",
+  "price": 30000,
+  "description": "replica",
+  "discount": "50%",
+  "brand": "got",
+  "images": "../images/trajeguardian.jpg"
+}]

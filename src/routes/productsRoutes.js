@@ -7,12 +7,12 @@ const upload = require("../middlewares/storage");
  
 
  
-
+router.get("/buscar", logs, controllers.buscador);
 router.get("/list", logs, controllers.list);
-router.get("/detail/:id", controllers.detail);
-router.put("/update/:id", controllers.update);
-router.delete("/delete/:id", controllers.delete);
-router.post("/create", upload.single("images"), controllers.create);
+router.post("/create", upload.single('file'), controllers.create);
+router.get("/detail/:id",logs, controllers.detail);
+router.put("/update/:id",logs, controllers.update);
+router.delete("/delete/:id",logs, controllers.delete);
 
 
 module.exports= router;

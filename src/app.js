@@ -1,12 +1,13 @@
 const path= require("path");
 const express= require("express");
+const cors =require("cors")
 const app = express();
 const products = require("./routes/productsRoutes.js");
-const users = require("./routes/usersRoutes.js");
 const connecToDb = require("./database/models/connect.js");
- connecToDb ();
+connecToDb ();
 
 // config //
+app.use(cors());
 app.use(express.static(path.resolve(__dirname, "../public")));
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
@@ -15,7 +16,7 @@ app.use(express.json());
 
 // routes //
 app.use("/products", products);
-app.use("/users",users);
+
 
 // error //
 app.use(function(req, res, next)  {
